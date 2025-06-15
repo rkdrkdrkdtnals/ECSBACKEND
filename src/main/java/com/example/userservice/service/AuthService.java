@@ -1,13 +1,13 @@
-package com.example.demo.service;
+package com.example.userservice.service;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.dto.TokenResponse;
-import com.example.demo.entity.User;
-import com.example.demo.jwt.JwtTokenProvider;
-import com.example.demo.jwt.RefreshTokenStore;
-import com.example.demo.repository.UserRepository;
+import com.example.userservice.dto.TokenResponse;
+import com.example.userservice.entity.User;
+import com.example.userservice.jwt.JwtTokenProvider;
+import com.example.userservice.jwt.RefreshTokenStore;
+import com.example.userservice.repository.UserRepository;
 
 
 

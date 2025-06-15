@@ -1,4 +1,4 @@
-package com.example.demo.jwt;
+package com.example.userservice.jwt;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

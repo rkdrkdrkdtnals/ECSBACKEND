@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.example.userservice.dto;
 
 public class TokenResponse {
     private String message;

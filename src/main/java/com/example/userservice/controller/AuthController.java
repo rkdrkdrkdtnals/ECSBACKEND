@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.userservice.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.dto.TokenResponse;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.service.AuthService;
+import com.example.userservice.dto.TokenResponse;
+import com.example.userservice.repository.UserRepository;
+import com.example.userservice.service.AuthService;
 
 @RestController
 @RequestMapping("/auth")
